@@ -1,0 +1,4 @@
+function lastElement(array) { 
+    return array.length ? array[array.length - 1] : null;
+}
+lastElement([3,5,7]);
