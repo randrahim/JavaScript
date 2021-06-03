@@ -1,0 +1,6 @@
+const greet = (name) => {
+    return `Hey ${name}!`;
+}
+
+The Output should be:
+greet("MyName") // "Hey MyName!" 
