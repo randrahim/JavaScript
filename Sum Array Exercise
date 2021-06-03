@@ -1,0 +1,9 @@
+// DEFINE YOUR FUNCTION BELOW:
+function sumArray(array) {
+    total = 0;
+    for(let i=0; i< array.length; i++){
+        total += array[i];
+    }
+    return total;
+}
+sumArray([1,2,3]);
