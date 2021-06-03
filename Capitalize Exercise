@@ -1,0 +1,6 @@
+// DEFINE YOUR FUNCTION BELOW:
+function capitalize(str) {
+    let firstLetter = str[0].toUpperCase();
+    return firstLetter + str.substr(1);
+}
+capitalize('computer');
