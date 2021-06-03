@@ -1,0 +1,5 @@
+function square(num){
+    var squareOfNum = Math.pow(num, 2);
+    return squareOfNum;
+}
+square(4);
