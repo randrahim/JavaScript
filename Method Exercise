@@ -1,0 +1,10 @@
+const square = {
+    area(l) {
+    return l*l
+    },
+    
+    perimeter(l) {
+      return l*4;
+    }
+}
+square.area(2);
